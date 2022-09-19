@@ -1,6 +1,9 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends BaseDisc implements OpticalDisc{
+
+    // add the CD constructor
+    // add some @overrides when cd is spun or read
 
     // TODO: Implement your custom interface.
 
