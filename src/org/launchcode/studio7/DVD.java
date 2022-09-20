@@ -11,13 +11,8 @@ public class DVD extends BaseDisc implements OpticalDisc {
     public void spinDisc() {
         System.out.println("The DVD is Spinning!");
     }
-
     @Override
     public void readData() {
         System.out.println("Reading all of the DVDs 4.3 gigabytes");
-
     }
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
-
 }
